@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="dark__mode" lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <title>Open Music</title>
+  </head>
+  <body>
+    <div class="padding__container">
+      <header class="header__container">
+        <div class="header__components">
+          <h1>open music</h1>
+          <img class="mode__controller" src="./src/assets/moon.svg" alt="Tema Escuro">
+        </div>
+      </header>
+      <section class="filter__container">
+        <h3>Gênero Musical</h3>
+        <nav class="filter__components">
+          <button class="filter__button">Todos</button>
+          <button class="filter__button">Pop</button>
+          <button class="filter__button">MPB</button>
+          <button class="filter__button">Forró</button>
+          <button class="filter__button">Samba</button>
+          <button class="filter__button">Baião</button>
+          <button class="filter__button">Rap</button>
+          <button class="filter__button">Hip-Hop</button>
+          <button class="filter__button">Rock</button>
+          <button class="filter__button">Reggae</button>
+          <button class="filter__button">Country</button>
+          <button class="filter__button">Gospel</button>
+        </nav>
+      </section>
+      <main class="main__container">
+        <section class="price__container">
+          <div class="price__components">
+            <div class="price__titles">
+              <h3>Definir preço</h3>
+              <h3>Até R$ <span class="price__value">89,00</span></h3>
+            </div>
+            <input type="range" step="1" min="0" max="89" value="0" class="price__range">
+          </div>
+        </section>
+        <section class="albums__container">
+          <h3>Albuns Encontrados</h3>
+          <ul class="albums__list"></ul>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="./src/scripts/index.js"></script>
+  </body>
+</html>
