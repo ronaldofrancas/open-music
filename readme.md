@@ -1,30 +1,30 @@
-## Introduction
+## Introdução
 
-##### Open Music is a record sales application that allows users to explore a variety of music albums. Users can filter products by music category and set a maximum price to view available products. With a user-friendly interface and data persistence features in LocalStorage, the application provides an immersive experience for music lovers.
+##### Open Music é um aplicativo de vendas de discos que permite aos usuários explorar uma variedade de álbuns de música. Os usuários podem filtrar produtos por categoria de música e definir um preço máximo para visualizar os produtos disponíveis. Com uma interface amigável e recursos de persistência de dados no LocalStorage, o aplicativo oferece uma experiência imersiva para os amantes da música.
 
-## Functionalities
+## Funcionalidades
 
-- #### 🔍 Filters by Category and Price
-- #### 💾 Data Persistence
-- #### 🎨 Dark Mode
+- #### 🔍 Filtros por Categoria e Preço
+- #### 💾 Persistência de dados
+- #### 🎨 Modo Escuro
 
-## Structure
+## Estrutura
 
-##### The Open Music project structure is organized to maintain a clear separation of responsibilities and facilitate application expansion. Below are the main directories and files present in the project:
+##### A estrutura do projeto Open Music é organizada para manter uma separação clara de responsabilidades e facilitar a expansão do aplicativo. Abaixo estão os principais diretórios e arquivos presentes no projeto:
 
-#### 🗂 Root Folder
-- ##### `index.html`: the application's main HTML file, responsible for rendering the user interface and loading the necessary resources;
-- ##### `readme.md`: the documentation file you are reading now, containing important information about the project.
+#### 🗂 Pasta raiz
+- ##### 'index.html': o arquivo HTML principal da aplicação, responsável por renderizar a interface do usuário e carregar os recursos necessários;
+- ##### 'readme.md': o arquivo de documentação que você está lendo agora, contendo informações importantes sobre o projeto.
 
-#### 🎨 Styles
-- ##### `index.css`: homepage styling;
-- ##### `global.css`: global styles applied throughout the application.
+#### 🎨 Estilos
+- ##### 'index.css': estilo da página inicial;
+- ##### 'global.css': estilos globais aplicados em toda a aplicação.
 
 #### 📝 Scripts
-- ##### `theme.js`: manages application theme preferences;
-- ##### `products.js`: contains product data and related methods.
-- ##### `render.js`: handles the rendering of elements in the user interface;
-- ##### `filters.js`: handles the filtering logic of products by music category and price;
-- ##### `index.js`: responsible for initializing the application and managing interactions with the user interface.
+- ##### 'theme.js': gerencia as preferências do tema do aplicativo;
+- ##### 'products.js': contém dados do produto e métodos relacionados.
+- ##### 'render.js': lida com a renderização de elementos na interface do usuário;
+- ##### 'filters.js': trata da lógica de filtragem de produtos por categoria de música e preço;
+- ##### 'index.js': responsável por inicializar a aplicação e gerenciar as interações com a interface do usuário.
 
-##### Explore and enjoy the musical journey in search of the best albums to enrich your collection! 🎶
+##### Explore e aproveite a jornada musical em busca dos melhores álbuns para enriquecer sua coleção! 🎶
