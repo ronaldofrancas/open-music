@@ -24,7 +24,7 @@
 - ##### 'theme.js': gerencia as preferências do tema do aplicativo;
 - ##### 'products.js': contém dados do produto e métodos relacionados.
 - ##### 'render.js': lida com a renderização de elementos na interface do usuário;
-- ##### 'filters.js': trata da lógica de filtragem de produtos por categoria de música e preço;
+- ##### 'filter.js': trata da lógica de filtragem de produtos por categoria de música e preço;
 - ##### 'index.js': responsável por inicializar a aplicação e gerenciar as interações com a interface do usuário.
 
 ##### Explore e aproveite a jornada musical em busca dos melhores álbuns para enriquecer sua coleção! 🎶
